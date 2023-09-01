@@ -53,3 +53,10 @@
   background-color: var(--icon-color);
   
 }
+@media (max-width:768px){
+  .login-container{
+      width: 100vw;
+      height: 100vh;
+      box-shadow: none;
+  }
+}

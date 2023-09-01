@@ -5,14 +5,29 @@
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
+    background-color: var(--text-color-light);
     padding: 55px 0;
+    transition: 1s;
 }
 .form-login{
-   background-color: var(--text-color-light); 
+    
 }
 .form-register{
-    background-color: var(--text-color-light)
+    z-index: -1;
+    opacity: 0;
+    transform: translateX(-100%);
 }
+.login-container.move .form-login{
+    transform: translateX(100%);
+    z-index: -1;
+    opacity: 0;
+}
+.login-container.move .form-register{
+    z-index: 1;
+    opacity: 1;
+    transform: translateX(0%);
+}
+
 .form-button{
     height: 40px;
     width: 140px;
@@ -30,4 +45,9 @@
     background-color: var(--primary-color);
     color: var(--text-color-light);
     transform: translateY(-15%);
+}
+@media (max-width:768px){
+    .form{
+        width: 100%;
+    }
 }
