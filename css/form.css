@@ -17,6 +17,25 @@
     opacity: 0;
     transform: translateX(-100%);
 }
+.form-title{
+    font-size: 2.3rem;
+    font-weight: 400;
+    color: var(--text-color-dark);
+    
+}
+.form-title-white{
+    color: var(--text-color-light);
+}
+.form-text-white{
+    color: var(--text-color-light);
+}
+
+.form-text{
+    color: var(--text-color-dark);
+}
+.form-link{
+    color: var(--text-color-dark);
+}
 .login-container.move .form-login{
     transform: translateX(100%);
     z-index: -1;
