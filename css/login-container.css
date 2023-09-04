@@ -6,6 +6,7 @@
   box-shadow: 1px 10px 20px var(--shadow-color);  
   overflow: hidden;
   background-color: var(--text-color-dark);
+  
 
 }
 .login-container.move .overlay-lr:nth-child(2){

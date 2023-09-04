@@ -16,6 +16,7 @@
     z-index: -1;
     opacity: 0;
     transform: translateX(-100%);
+    
 }
 .form-title{
     font-size: 2.3rem;
@@ -40,11 +41,13 @@
     transform: translateX(100%);
     z-index: -1;
     opacity: 0;
+    
 }
 .login-container.move .form-register{
     z-index: 1;
     opacity: 1;
     transform: translateX(0%);
+    
 }
 
 .form-button{
