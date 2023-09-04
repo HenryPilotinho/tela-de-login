@@ -3,6 +3,7 @@ main{
     display: flex;
     justify-content: center;
     align-items: center;
+    
 }
 *{
     margin: 0;
@@ -16,8 +17,13 @@ main{
     --primary-color: #F49200;
     --shadow-color: #333232;
     --icon-color: #f5f5f5;
+    --red-color: #B44A4A;
 }
 a{
     text-decoration: none;
     color: #000;
+}
+body{
+    background-image: url(/img/vintage-marine-tattoos-seamless-pattern-vector-34883137.jpg);
+    background-size: 10rem;
 }

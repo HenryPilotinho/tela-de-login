@@ -5,6 +5,8 @@
   border-radius: 12px;
   box-shadow: 1px 10px 20px var(--shadow-color);  
   overflow: hidden;
+  background-color: var(--text-color-dark);
+
 }
 .login-container.move .overlay-lr:nth-child(2){
   z-index: 1;
@@ -29,7 +31,7 @@
   align-items: center;
   font-size: 1.2rem;
   background-color: var(--icon-color);
-  box-shadow: 0 4px 4px #0004;
+  box-shadow: 0 2px 2px var(--text-color-light);
   border-radius: 50%;
   transition: 0.5s;
 }
@@ -50,7 +52,7 @@
   width: 300px;
   padding: 10px 20px;
   border-style: none;
-  background-color: var(--icon-color);
+  background-color: var(--text-color-light);
   
 }
 @media (max-width:768px){
