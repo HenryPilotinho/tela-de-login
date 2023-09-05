@@ -5,12 +5,12 @@
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
-    background-color: var(--text-color-dark);
+    background-color: var(--red-color);
     padding: 55px 0;
     transition: 1s;
 }
 .form-login{
-    background-color: var(--text-color-dark);
+    background-color: var(--blue-color2);
 }
 .form-register{
     z-index: -1;

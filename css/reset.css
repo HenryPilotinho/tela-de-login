@@ -18,6 +18,8 @@ main{
     --shadow-color: #333232;
     --icon-color: #f5f5f5;
     --red-color: #B44A4A;
+    --blue-color1: #58d0f5;
+    --blue-color2: #5B8491;
 }
 a{
     text-decoration: none;
