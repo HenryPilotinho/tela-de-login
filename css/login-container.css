@@ -48,7 +48,23 @@
   gap: 10px;
 
 }
-.form-input{
+.nome{
+  height: 40px;
+  width: 300px;
+  padding: 10px 20px;
+  border-style: none;
+  background-color: var(--text-color-light);
+  
+}
+.email{
+  height: 40px;
+  width: 300px;
+  padding: 10px 20px;
+  border-style: none;
+  background-color: var(--text-color-light);
+  
+}
+.senha{
   height: 40px;
   width: 300px;
   padding: 10px 20px;
