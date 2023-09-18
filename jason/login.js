@@ -7,14 +7,19 @@ document.getElementById('open-register').addEventListener('click', moveOverlay)
 
 document.getElementById('open-login').addEventListener('click', moveOverlay)
 
-const formulario = document.querySelector("form ")
-const Inome = document.querySelector(".nome")
-const Iemail = document.querySelector(".email")
-const Isenha = document.querySelector(".senha")
+
+
+
+
+
+const formulario = document.getElementById("form-register");
+const Inome = document.getElementById("nome")
+const Iemail = document.getElementById("emailR")
+const Isenha = document.getElementById("senhaR")
 
 
 function cadastrar(){
-    fetch("https://localhost:8080/cadastrar",
+    fetch("https://localhost/cadastrar",
         {
             headers:{
                 'Accept': 'application.json',
@@ -30,8 +35,6 @@ function cadastrar(){
         .then(function(res){console.log(res)})
         .catch(function(res){console.log(res)})
 
-
-
 };
 
 function limpar (){
@@ -40,10 +43,16 @@ function limpar (){
     Isenha.value = "";
 };
 
-
-formulario.addEventListener('submit', function(event){
-    event.preventDefault();
+document.getElementById("register-btn").onmousedown = () => {
+    
     
     cadastrar();
     limpar();
-});
+}
+
+// formulario.addEventListener('submit', function(event){
+//     event.preventDefault();
+    
+//     cadastrar();
+//     limpar();
+// });
