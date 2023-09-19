@@ -1,0 +1,47 @@
+.mySidebar{
+    width: 100%;
+    height: 100%;
+    background-color: aqua;
+    display:none;
+    align-items: center;
+   
+}
+.openNav{
+    height: 40px;
+    width: 90px;
+    border-radius: 10px;
+    border-style: none;
+    border: 2px solid var(--primary-color);
+    font-size: 1rem;
+    font-weight: 800;
+    color: var(--primary-color);
+    background-color: var(--text-color-light);
+    cursor: pointer;
+     
+}
+.closeNav{
+    height: 40px;
+    width: 90px;
+    border-radius: 10px;
+    border-style: none;
+    border: 2px solid var(--primary-color);
+    font-size: 1rem;
+    font-weight: 800;
+    color: var(--primary-color);
+    background-color: var(--text-color-light);
+    cursor: pointer;
+}
+.main{
+    position: relative;
+    height: 480px;
+    width: 768px;
+    border-radius: 12px;
+    box-shadow: 1px 10px 20px var(--shadow-color);  
+    overflow: hidden;
+    background-color: var(--red-color);
+}
+.main.move .overlay-lr:nth-child(2){
+    z-index: 1;
+    opacity: 0;
+    
+  }

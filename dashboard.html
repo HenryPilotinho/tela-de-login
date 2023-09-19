@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="cssdash/resetDash.css">
+    <link rel="stylesheet" href="cssdash/dashMain.css">
+    
+    <script src="./jason/dash.js" defer></script>
+
+    <title>Document</title>
+</head>
+<body>
+    <div class="mySidebar" id="mySidebar">
+        <button class="closeNav" onclick="w3_close()">Close &times;</button>
+        <a href="#" >Link 1</a>
+        <a href="#" >Link 2</a>
+        <a href="#" >Link 3</a>
+    </div>
+      
+    <div id="main">
+      
+      <div class="w3-teal">
+        <button id="openNav" class="openNav" onclick="w3_open()">&#9776;</button>
+        <div class="w3-container">
+          <h1>My Page</h1>
+        </div>
+      </div>
+      
+      
+      <div class="w3-container">
+        <p>In this example, the sidebar is hidden (style="display:none")</p>
+        <p>It is shown when you click on the menu icon in the top left corner.</p>
+        <p>When it is opened, it shifts the page content to the right.</p>
+        <p>We use JavaScript to add a 25% left margin to the div element with id="main" when this happens. The value "25%" matches the width of the sidebar.</p>
+      </div>
+      
+    </div>
+</body>
+</html>
